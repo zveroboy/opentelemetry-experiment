@@ -5,7 +5,7 @@
 const { Resource } = require('@opentelemetry/resources');
 const { metrics } = require('@opentelemetry/api');
 const { OTLPMetricExporter } = require('@opentelemetry/exporter-metrics-otlp-grpc');
-const { MeterProvider,PeriodicExportingMetricReader } = require('@opentelemetry/sdk-metrics');
+const { MeterProvider, PeriodicExportingMetricReader } = require('@opentelemetry/sdk-metrics');
 
 
 const meterProvider = new MeterProvider({
